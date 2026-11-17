@@ -1,0 +1,27 @@
+{
+  "name": "vrm",
+  "version": "1.0.0",
+  "description": "応用プログラミング 第8回",
+  "homepage": "https://github.com/DCS-2-311-20/VRM#readme",
+  "bugs": {
+    "url": "https://github.com/DCS-2-311-20/VRM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCS-2-311-20/VRM.git"
+  },
+  "license": "ISC",
+  "author": "Takashi Minohara",
+  "type": "commonjs",
+  "main": "vrm.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@pixiv/three-vrm": "^3.5.5",
+    "lil-gui": "^0.21.0",
+    "three": "^0.187.0",
+    "vite": "^8.3.8"
+  }
+}
